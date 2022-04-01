@@ -83,6 +83,58 @@ body {
 
 /* ***********************************************
 **********************************************
+               amin section         
+ **********************************************
+ ************************************************ */
+
+.amin-section {
+    background-color: #202D3F;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: sans-serif;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.amin-section * {
+    margin: 0;
+    padding: 0;
+}
+
+.amin-section img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+}
+
+.amin-section .side {
+    margin-left: 30px;
+    margin-right: 3%;
+    text-align: left;
+}
+
+.amin-section p {
+    color: #56DBC0;
+    font-size: 13px;
+}
+
+.amin-section h2 {
+    color: #BFCAEA;
+    margin: 0;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.amin-section span {
+    color: #56DBC0;
+}
+
+
+/* ***********************************************
+**********************************************
                name section         
  **********************************************
  ************************************************ */
