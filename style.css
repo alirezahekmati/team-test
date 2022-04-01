@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+/* ***********************************************
+**********************************************
+               alireza section         
+ **********************************************
+ ************************************************ */
+
+#alireza {
+    background-color: hsl(168, 76%, 42%);
+    padding: .5em 2.5em;
+
+}
+
+#alireza span {
+    color: hsl(6, 78%, 57%);
+
+}
+
+#alireza-face {
+    cursor: pointer;
+    user-select: none;
+}
+
+#alireza-hand {
+    animation: alireza-hand-animation 1s infinite;
+    display: inline-block;
+}
+
+
+@keyframes alireza-hand-animation {
+    0% {
+        transform: rotate(-30deg);
+        transform-origin: 20px 20px;
+    }
+
+    20% {
+        transform: rotate(-20deg);
+        transform-origin: 20px 20px;
+    }
+
+    40% {
+        transform: rotate(-10deg);
+        transform-origin: 20px 20px;
+    }
+
+    60% {
+        transform: rotate(5deg);
+        transform-origin: 20px 20px;
+    }
+
+    80% {
+        transform: rotate(+30deg);
+        transform-origin: 20px 20px;
+    }
+
+    90% {
+        transform: rotate(+0deg);
+        transform-origin: 20px 20px;
+    }
+
+    100% {
+        transform: rotate(-20deg);
+        transform-origin: 20px 20px;
+    }
+}
+
+/* ***********************************************
+**********************************************
+               name section         
+ **********************************************
+ ************************************************ */
