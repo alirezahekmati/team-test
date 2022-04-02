@@ -1,19 +1,18 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container {
-    max-width: 600px;
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 700;
-
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 /* ***********************************************
@@ -23,62 +22,59 @@ body {
  ************************************************ */
 
 #alireza {
-    background-color: hsl(168, 76%, 42%);
-    padding: .5em 2.5em;
-
+  background-color: hsl(168, 76%, 42%);
+  padding: 0.5em 2.5em;
 }
 
 #alireza span {
-    color: hsl(6, 78%, 57%);
-
+  color: hsl(6, 78%, 57%);
 }
 
 #alireza-face {
-    cursor: pointer;
-    user-select: none;
+  cursor: pointer;
+  user-select: none;
 }
 
 #alireza-hand {
-    animation: alireza-hand-animation 1s infinite;
-    display: inline-block;
+  animation: alireza-hand-animation 1s infinite;
+  display: inline-block;
 }
 
-
 @keyframes alireza-hand-animation {
-    0% {
-        transform: rotate(-30deg);
-        transform-origin: 20px 20px;
-    }
+  0% {
+    transform: rotate(-30deg);
+    transform-origin: 20px 20px;
+  }
 
-    20% {
-        transform: rotate(-20deg);
-        transform-origin: 20px 20px;
-    }
+  20% {
+    transform: rotate(-20deg);
+    transform-origin: 20px 20px;
+  }
 
-    40% {
-        transform: rotate(-10deg);
-        transform-origin: 20px 20px;
-    }
+  40% {
+    transform: rotate(-10deg);
+    transform-origin: 20px 20px;
+  }
 
-    60% {
-        transform: rotate(5deg);
-        transform-origin: 20px 20px;
-    }
+  60% {
+    transform: rotate(5deg);
+    transform-origin: 20px 20px;
+  }
 
-    80% {
-        transform: rotate(+30deg);
-        transform-origin: 20px 20px;
-    }
+  80% {
+    transform: rotate(+30deg);
+    transform-origin: 20px 20px;
+  }
 
-    90% {
-        transform: rotate(+0deg);
-        transform-origin: 20px 20px;
-    }
+  90% {
+    transform: rotate(+0deg);
+    transform-origin: 20px 20px;
+  }
 
-    100% {
-        transform: rotate(-20deg);
-        transform-origin: 20px 20px;
-    }
+  100% {
+    transform: rotate(-20deg);
+    transform-origin: 20px 20px;
+  }
 }
 
 /* ***********************************************
@@ -88,50 +84,49 @@ body {
  ************************************************ */
 
 .amin-section {
-    background-color: #202D3F;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-family: sans-serif;
-    padding: 10px 30px;
-    display: flex;
-    align-items: center;
+  background-color: #202d3f;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-family: sans-serif;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
 }
 
 .amin-section * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .amin-section img {
-    object-fit: cover;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    border: 2px solid white;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 2px solid white;
 }
 
 .amin-section .side {
-    margin-left: 30px;
-    margin-right: 3%;
-    text-align: left;
+  margin-left: 30px;
+  margin-right: 3%;
+  text-align: left;
 }
 
 .amin-section p {
-    color: #56DBC0;
-    font-size: 13px;
+  color: #56dbc0;
+  font-size: 13px;
 }
 
 .amin-section h2 {
-    color: #BFCAEA;
-    margin: 0;
-    font-size: 35px;
-    letter-spacing: 2px;
+  color: #bfcaea;
+  margin: 0;
+  font-size: 35px;
+  letter-spacing: 2px;
 }
 
 .amin-section span {
-    color: #56DBC0;
+  color: #56dbc0;
 }
-
 
 /* ***********************************************
 **********************************************
@@ -140,16 +135,16 @@ body {
  ************************************************ */
 
 .birbman-section {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .birbman-section p {
-    background-color: #272c35;
-    margin: 0;
-    padding: 1em;
-    color: #9bb0d7;
-    height: 158px;
+  background-color: #272c35;
+  margin: 0;
+  padding: 1em;
+  color: #9bb0d7;
+  height: 158px;
 }
 
 /* ***********************************************
@@ -158,16 +153,37 @@ body {
  **********************************************
  ************************************************ */
 
- .cloud-section{
-     background-color: #202D3F;
-     color: #56DBC0;
-     padding: 0.5em 2em;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
- .cloud-head{
-     margin-bottom: 0px;
- }
- .cloud-smallText{
-     margin-top: 0px;
-     font-size: 0.8rem;
- }
+.cloud-section {
+  background-color: #202d3f;
+  color: #56dbc0;
+  padding: 0.5em 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.cloud-head {
+  margin-bottom: 0px;
+}
+.cloud-smallText {
+  margin-top: 0px;
+  font-size: 0.8rem;
+}
+
+/* YINNI'S SECTION */
+
+.yinnni {
+  background-color: #ffd36e;
+  font-family: Helvetica;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.yinnni p {
+  background-color: black;
+  color: #ffd36e;
+  width: 250px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* END OF SECTION */
