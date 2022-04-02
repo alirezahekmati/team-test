@@ -15,7 +15,7 @@ document.getElementById("alireza-face").addEventListener("click", alirezaEmojiCl
  *******************************/
 
  const memberData = {
-    sushant: { name: "Sushant" },
+    sushant: { name: "Sushant", timeZone: "GMT + 5:30" },
   };
   
   function Member(memberDetails) {
@@ -29,6 +29,7 @@ document.getElementById("alireza-face").addEventListener("click", alirezaEmojiCl
       const p = document.createElement("p");
       p.id = "alireza";
       p.innerHTML = `Hello team, my name is <span id="alireza-span">${this.name}</span>
+        I am from timezone: ${this.timeZone}
           <span id="alireza-face">😊</span> <span id="alireza-hand">👋</span>`;
       document.querySelector(".container").appendChild(p);
     };
