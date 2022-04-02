@@ -151,3 +151,23 @@ body {
     color: #9bb0d7;
     height: 158px;
 }
+
+/* ***********************************************
+**********************************************
+               Cloud section         
+ **********************************************
+ ************************************************ */
+
+ .cloud-section{
+     background-color: #202D3F;
+     color: #56DBC0;
+     padding: 0.5em 2em;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .cloud-head{
+     margin-bottom: 0px;
+ }
+ .cloud-smallText{
+     margin-top: 0px;
+     font-size: 0.8rem;
+ }
