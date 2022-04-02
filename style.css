@@ -135,6 +135,19 @@ body {
 
 /* ***********************************************
 **********************************************
-               name section         
+               Birbman section         
  **********************************************
  ************************************************ */
+
+.birbman-section {
+    display: flex;
+    justify-content: center;
+}
+
+.birbman-section p {
+    background-color: #272c35;
+    margin: 0;
+    padding: 1em;
+    color: #9bb0d7;
+    height: 158px;
+}
