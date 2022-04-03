@@ -24,26 +24,26 @@ body {
 #alireza {
   background-color: #1abc9c;
   background-image: linear-gradient(
-  130deg,
-  hsl(168deg 76% 42%) 0%,
-  hsl(170deg 60% 48%) 10%,
-  hsl(172deg 59% 54%) 20%,
-  hsl(175deg 63% 60%) 30%,
-  hsl(177deg 67% 66%) 40%,
-  hsl(180deg 74% 72%) 50%,
-  hsl(166deg 75% 75%) 60%,
-  hsl(144deg 71% 81%) 70%,
-  hsl(103deg 67% 83%) 80%,
-  hsl(70deg 66% 80%) 90%,
-  hsl(46deg 100% 83%) 100%
-);
+    130deg,
+    hsl(168deg 76% 42%) 0%,
+    hsl(170deg 60% 48%) 10%,
+    hsl(172deg 59% 54%) 20%,
+    hsl(175deg 63% 60%) 30%,
+    hsl(177deg 67% 66%) 40%,
+    hsl(180deg 74% 72%) 50%,
+    hsl(166deg 75% 75%) 60%,
+    hsl(144deg 71% 81%) 70%,
+    hsl(103deg 67% 83%) 80%,
+    hsl(70deg 66% 80%) 90%,
+    hsl(46deg 100% 83%) 100%
+  );
   padding: 1em 2.5em;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
-  border: 1px solid hsla(0, 0%, 0%,.5);
-  box-shadow: 15px 15px 8px 1px hsla(0, 0%, 50%,.5);
+  border: 1px solid hsla(0, 0%, 0%, 0.5);
+  box-shadow: 15px 15px 8px 1px hsla(0, 0%, 50%, 0.5);
   font-family: Montserrat;
-  color: hsla(0, 0%, 0%,.9);
+  color: hsla(0, 0%, 0%, 0.9);
   animation: cloud 4s infinite;
 }
 
@@ -61,17 +61,17 @@ body {
   display: inline-block;
 }
 @keyframes cloud {
-  0%{
-transform: translate(0px 0px);
-box-shadow: 5px 5px 2px 1px hsla(0, 0%, 50%,.5);
+  0% {
+    transform: translate(0px 0px);
+    box-shadow: 5px 5px 2px 1px hsla(0, 0%, 50%, 0.5);
   }
-  50%{
-    transform: translate(-5px ,-5px);
-    box-shadow: 15px 15px 10px 1px hsla(0, 0%, 50%,.5);
+  50% {
+    transform: translate(-5px, -5px);
+    box-shadow: 15px 15px 10px 1px hsla(0, 0%, 50%, 0.5);
   }
-  100%{
-transform: translate(0px 0px);
-box-shadow: 5px 5px 2px 1px hsla(0, 0%, 50%,.5);
+  100% {
+    transform: translate(0px 0px);
+    box-shadow: 5px 5px 2px 1px hsla(0, 0%, 50%, 0.5);
   }
 }
 
@@ -209,31 +209,28 @@ box-shadow: 5px 5px 2px 1px hsla(0, 0%, 50%,.5);
  **********************************************
  ************************************************ */
 
- .marleigh-section {
-   background-color: rgb(174, 225, 245);
-   font-family: 'Montserrat', sans-serif;
-   color:rgba(29, 26, 26, 0.8);
-   font-weight: 300;
+.marleigh-section {
+  background-color: rgb(174, 225, 245);
+  font-family: "Montserrat", sans-serif;
+  color: rgba(29, 26, 26, 0.8);
+  font-weight: 300;
 
-   padding: 1em;
-   margin: 1em;
-   border-radius: 15px;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 15px;
+}
 
- }
+.marleigh-section h1 {
+  font-weight: 600;
+  color: rgb(20, 7, 92);
+}
 
- .marleigh-section h1 {
-   font-weight: 600;
-   color:rgb(20, 7, 92);
- }
+.marleigh-section p,
+.marleigh-section h1 {
+  margin: 0.1em;
+}
 
- .marleigh-section p,
- .marleigh-section h1 {
-   margin: 0.1em;
- }
-
-
-
- /* ***********************************************
+/* ***********************************************
 **********************************************
                name  section         
  **********************************************

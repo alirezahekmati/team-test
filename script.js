@@ -6,19 +6,26 @@
 let isAlirezaEmoji = false;
 function alirezaEmojiClick(e) {
   isAlirezaEmoji = !isAlirezaEmoji;
-  isAlirezaEmoji ? (e.target.textContent = "😳") : (e.target.textContent = "😊");
+  isAlirezaEmoji
+    ? (e.target.textContent = "😳")
+    : (e.target.textContent = "😊");
 }
-document.getElementById("alireza-face").addEventListener("click", alirezaEmojiClick);
+document
+  .getElementById("alireza-face")
+  .addEventListener("click", alirezaEmojiClick);
+
+/* *****************************
+ * Member data array (array of objects containing member details)
+ ******************************/
+const memberData = [
+  { name: "Sushant", timeZone: "GMT + 5:30" },
+  { name: "Silvia", timeZone: "GMT + 1" },
+  { name: "Gene Lorenz", timeZone: "GMT + 8" },
+];
 
 /*******************************
  * Member Constructor
  *******************************/
-
-const memberData = {
-  sushant: { name: "Sushant", timeZone: "GMT + 5:30" },
-  silvia: { name: "Silvia", timeZone: "GMT + 1" },
-};
-
 function Member(memberDetails) {
   Object.assign(this, memberDetails);
 
@@ -35,12 +42,10 @@ function Member(memberDetails) {
     document.querySelector(".container").appendChild(p);
   };
 }
-
-const sushant = new Member(memberData.sushant);
-sushant.addToPage();
-
-const silvia = new Member(memberData.silvia);
-silvia.addToPage();
+/* *****************************
+ * Loop over each member then create a new member object
+ ******************************/
+memberData.forEach((member) => new Member(member).addToPage());
 
 /* ***********************************************
 **********************************************
