@@ -147,6 +147,12 @@ body {
   text-align: left;
 }
 
+.amin-section .timezone {
+  width: 150px;
+  text-align: center;
+  color: #bfcaea;
+}
+
 .amin-section p {
   color: #56dbc0;
   font-size: 13px;
@@ -161,6 +167,11 @@ body {
 
 .amin-section span {
   color: #56dbc0;
+}
+
+.amin-section .gmt {
+  font-size: 20px;
+  margin-left: 5%;
 }
 
 /* ***********************************************
